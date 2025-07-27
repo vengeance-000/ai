@@ -1,22 +1,16 @@
+```
+ai infra template for vengeance.
+
+strictly follow CONTRIBUTING.md for contribution rules.
+```
+
+Original Repo's README
+
 # Go Backend Clean Architecture
 
 A Go (Golang) Backend Clean Architecture project with Gin, MongoDB, JWT Authentication Middleware, Test, and Docker.
 
 ![Go Backend Clean Architecture](https://github.com/amitshekhariitbhu/go-backend-clean-architecture/blob/main/assets/go-backend-clean-architecture.png?raw=true)
-
-**You can use this project as a template to build your Backend project in the Go language on top of this project.**
-
-Before creating this project, I have gone through more than 20 projects related to the Go(Golang) Clean Architecture on GitHub.
-
-Thanks to all those projects, I learned a lot from all of those. As I keep saying:
-
-> The best way to learn to code is to code. But, to write good code, you will also have to read good code. Make a habit of reading good code. You can find many open-source projects on GitHub and start reading.
-
-Then for the implementation part, I combined all of my ideas, experiences, and learnings from those projects to create this project.
-
-And as always I would love to get feedback on my project. This helps everyone and most importantly me.
-
-Learn about this project architecture in detail from the blogs mentioned below:
 
 - [Go Backend Clean Architecture](https://outcomeschool.com/blog/go-backend-clean-architecture)
 - [Go JWT Authentication Middleware](https://outcomeschool.com/blog/go-jwt-authentication-middleware)
@@ -33,30 +27,6 @@ Learn about this project architecture in detail from the blogs mentioned below:
 - Domain
 
 ![Go Backend Clean Architecture Diagram](https://github.com/amitshekhariitbhu/go-backend-clean-architecture/blob/main/assets/go-backend-arch-diagram.png?raw=true)
-
-## About me
-
-Hi, I am Amit Shekhar, Co-Founder @ [Outcome School](https://outcomeschool.com) • IIT 2010-14 • I have taught and mentored many developers, and their efforts landed them high-paying tech jobs, helped many tech companies in solving their unique problems, and created many open-source libraries being used by top companies. I am passionate about sharing knowledge through open-source, blogs, and videos.
-
-You can connect with me on:
-
-- [Twitter](https://twitter.com/amitiitbhu)
-- [YouTube](https://www.youtube.com/@amitshekhar)
-- [LinkedIn](https://www.linkedin.com/in/amit-shekhar-iitbhu)
-- [GitHub](https://github.com/amitshekhariitbhu)
-
-## System Design Playlist on YouTube
-
-We have launched our YouTube channel. Subscribe to the [Outcome School YouTube Channel](https://www.youtube.com/@OutcomeSchool)
-
-- [What is System Design?](https://www.youtube.com/watch?v=i4YWRY3hsdA)
-- [Twitter Timeline Design with Fanout Approach - System Design](https://www.youtube.com/watch?v=_7qHGfwgPz0)
-- [HTTP Request vs HTTP Long-Polling vs WebSocket vs Server-Sent Events](https://www.youtube.com/watch?v=8ksWRX4xV-s)
-- [YouTube Video Upload Service - System Design](https://www.youtube.com/watch?v=N0vvJTkokZc)
-- [What is Consistent Hashing?](https://www.youtube.com/watch?v=dV5cIm9T3ss)
-- [Capacity Estimation: Back-of-the-envelope calculation - Twitter](https://www.youtube.com/watch?v=yrbKxzXm6_Q)
-
-Prepare for Machine Learning Interview: [Machine Learning Interview Questions](https://github.com/amitshekhariitbhu/machine-learning-interview-questions)
 
 ## Major Packages used in this project
 
@@ -85,14 +55,9 @@ We can run this Go Backend Clean Architecture project with or without Docker. He
 
 - Clone this project
 
-```bash
-# Move to your workspace
+```
 cd your-workspace
-
-# Clone this project into your workspace
 git clone https://github.com/amitshekhariitbhu/go-backend-clean-architecture.git
-
-# Move to the project root directory
 cd go-backend-clean-architecture
 ```
 
@@ -114,8 +79,7 @@ cd go-backend-clean-architecture
 
 ### How to run the test?
 
-```bash
-# Run all tests
+```
 go test ./...
 ```
 

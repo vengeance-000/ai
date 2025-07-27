@@ -1,6 +1,6 @@
-module github.com/amitshekhariitbhu/go-backend-clean-architecture
+module https://github.com/vengeance-000/ai
 
-go 1.19
+go 1.24
 
 require (
 	github.com/gin-gonic/gin v1.8.2
